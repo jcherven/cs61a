@@ -26,6 +26,7 @@ OK will test all quesitons by default if `-q` is omitted.
 #### Displaying Tests
 
 OK displays only failed tests by default. Display all tests with the `-v` flag.
+
 `python3 ok -v`
 
 #### Submitting assignments
