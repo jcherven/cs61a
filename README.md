@@ -12,14 +12,14 @@ https://cs61a.org/articles/using-ok.html
 #### Run the OK autograder/tester with
 `$ python3 ok`
 
-#### Run OK with network submission to Berkeley disabled with the local flag:
+#### Run OK with network submission to okpy.org disabled with the local flag:
 `python3 ok --local`
 
 Consider aliasing that to `ok` in your terminal environment since non-enrolled students can't use the upload features.
 
-#### Run the test a specific question
+#### Run the test on a specific question
 
-`pythong3 ok -q <name of the question>`
+`python3 ok -q <name of the question>`
 
 OK will test all quesitons by default if `-q` is omitted.
 
