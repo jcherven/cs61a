@@ -29,7 +29,7 @@ def two_of_three(a, b, c):
     >>> two_of_three(5, 5, 5)
     50
     """
-    return _____
+    return add(pow(max(a, b), 2), pow(max(b, c), 2))
 
 def largest_factor(n):
     """Return the largest factor of n that is smaller than n.
