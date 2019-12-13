@@ -93,9 +93,11 @@ def with_if_function():
 
 def c():
     "*** YOUR CODE HERE ***"
+    return False
 
 def t():
     "*** YOUR CODE HERE ***"
+    print(1)
 
 def f():
     "*** YOUR CODE HERE ***"
@@ -116,3 +118,14 @@ def hailstone(n):
     7
     """
     "*** YOUR CODE HERE ***"
+    length = 1
+    while n != 1:
+        print(n)
+        if n % 2 == 0:
+            n = n // 2
+        else:
+            n  = n * 3 + 1
+        length = length + 1
+    print(n)
+    return length
+
