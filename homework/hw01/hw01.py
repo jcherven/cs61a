@@ -30,6 +30,7 @@ def two_of_three(a, b, c):
     50
     """
     return add(pow(max(a, b), 2), pow(max(b, c), 2))
+    return ( a*a + b*b + c*c ) - min(a*a,b*b,c*c)
 
 def largest_factor(n):
     """Return the largest factor of n that is smaller than n.
@@ -42,6 +43,12 @@ def largest_factor(n):
     1
     """
     "*** YOUR CODE HERE ***"
+    i = 1
+    while i < n:
+        if n % i == 0:
+            largest = i
+        i = i + 1
+    return largest
 
 def if_function(condition, true_result, false_result):
     """Return true_result if condition is a true value, and
